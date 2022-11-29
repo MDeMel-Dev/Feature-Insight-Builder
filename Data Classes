@@ -1,0 +1,13 @@
+data class TargetViewSpecs(
+  val startX: Int,
+  val startY: Int,
+  val endX: Int,
+  val endY: Int,
+  val width: Int,
+  val height: Int
+)
+
+data class InsightComposableAreaSpecs(
+  val areaWidth: Int,
+  val areaHeight: Int
+)
